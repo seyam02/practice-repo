@@ -4,7 +4,7 @@ using namespace std;
 class Queue {
     int arr[100];
     int front, rear;
-    int size;
+    int size; 
 
 public:
     Queue() {
