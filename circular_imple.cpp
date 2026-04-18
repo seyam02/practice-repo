@@ -74,7 +74,7 @@ public:
 
         cout << endl;
     }
-};
+}; 
 
 int main() {
     Queue q;
