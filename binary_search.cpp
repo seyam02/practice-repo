@@ -10,7 +10,7 @@ int main() {
     int mid;
     int found = -1;
 
-    while (low <= high) {
+    while (low <= high) { 
         mid = (low + high) / 2;
 
         if (arr[mid] == key) {
