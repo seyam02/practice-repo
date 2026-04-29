@@ -8,7 +8,7 @@ bool visited[N];
 // DFS function
 bool dfs(int node, int parent) {
     visited[node] = true;
-
+  
     for (int neighbor : adj[node]) {
         if (!visited[neighbor]) {
             if (dfs(neighbor, node))
