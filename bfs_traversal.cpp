@@ -5,7 +5,7 @@ int main(){
     int n = 4; 
     vector<int> adj[5]; 
 
-    // building graph
+    // building graph 
     adj[1].push_back(2);
     adj[2].push_back(1);
 
