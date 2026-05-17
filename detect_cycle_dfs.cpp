@@ -3,7 +3,7 @@ using namespace std;
 
 const int N = 1000;
 vector<int> adj[N];
-bool visited[N];
+bool visited[N]; 
 
 // DFS function
 bool dfs(int node, int parent) {
